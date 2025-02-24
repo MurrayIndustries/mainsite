@@ -31,7 +31,8 @@
             height: 180px;
             border-radius: 50%;
             object-fit: cover;
-            margin-bottom: 1px;
+            margin-top: 20px; /* Adjusted to move image slightly down */
+            margin-bottom: 15px;
             border: 4px solid #8e44ad;
         }
         .bio {
@@ -59,7 +60,7 @@
         }
         .nav {
             text-align: center;
-            padding: 15px;
+            padding: 10px 0;
             background: #8e44ad;
         }
         .nav a {
@@ -68,6 +69,10 @@
             font-size: 1.2em;
             font-weight: bold;
             margin: 0 15px;
+            transition: color 0.3s;
+        }
+        .nav a:hover {
+            color: #f1c40f;
         }
     </style>
 </head>
@@ -79,12 +84,12 @@
     </nav>
 
     <div class="container">
-        <img src="content/photos/unnamed (3).jpg" alt="Charles Murray" class="profile-img">
+        <img src="ceo-placeholder.jpg" alt="Charles Murray" class="profile-img">
         <h1>Charles Murray</h1>
         <h2>Founder & CEO, Murray Industries</h2>
         
         <p class="bio">
-            Charles Murray is a passionate entrepreneur with a vision for accessible and affordable web solutions. 
+            Charles Murray is a passionate entrepreneur with a vision for accessible and affordable web solutions.
             Charles founded Murray Industries to deliver high-quality HTML websites and reliable hosting at unbeatable prices.
         </p>
         
